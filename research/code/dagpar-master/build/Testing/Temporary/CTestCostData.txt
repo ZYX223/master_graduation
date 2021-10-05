@@ -1,0 +1,3 @@
+utestall 1 0.727609
+utestisdag 1 0.309971
+---

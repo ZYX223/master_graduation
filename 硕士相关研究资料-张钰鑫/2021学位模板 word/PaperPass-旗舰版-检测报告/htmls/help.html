@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>PaperPass 权威中文论文抄袭检测系统</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <style type="text/css">
+        .paper{
+            overflow: auto;
+        }
+        .paper,.paper-footer{
+            background: #e7e7e7;
+        }
+        .paper .use_help{
+            width: 1286px;
+            padding: 0 20px;
+            margin: auto;
+        }
+        img{
+            width:100%;
+            height:100%;
+        }
+        .tab-container .nav-tabs{
+            margin: 25px 28px 5px;
+        }
+        .tab-container .nav-tabs li{
+            float: left;
+            background: #d5d5d5;
+            padding: 6px 18px;
+        }
+        .tab-container .nav-tabs li.active{
+            background: #5eb184;
+        }
+        .tab-container .nav-tabs li:nth-child(1){
+            border-radius: 5px 0 0 5px;
+        }
+        .tab-container .nav-tabs li:last-child{
+            border-radius: 0 5px 5px 0;
+        }
+        .tab-container .nav-tabs li + li{
+            display: inline-block;
+            border-left: 1px solid #fff;
+        }
+        .tab-container .nav-tabs li a{
+            font-size: 14px;
+            color: #484f52;
+        }
+        .tab-container .nav-tabs li.active a{
+            color: #fff;
+            font-weight: 500;
+        }
+        .tab-content .tab-pane{
+            position: relative;
+            display: none;
+        }
+        .tab-content .tab-pane.active{
+            display: block;
+        }
+        /* 详细报告. Word版 */
+        .square{
+            padding: 8px 18px;
+            color: #fff;
+            font-size: 13px;
+            background: #4b516b;
+            line-height: 25px;
+            border-radius: 3px;
+            box-shadow: 0px 6px 32px 0px rgba(45, 49, 52, 0.25);
+        }
+        .co-ordinate7 .square{
+            font-weight: 500;
+            padding: 0px 20px;
+            text-align: center;
+        }
+        .square p{
+            font-size: 15px;
+            font-weight: 700;
+        }
+        .pos-abs{
+            position: absolute;
+        }
+        .co-ordinate1{
+            top: 50px;
+            left: 40px;
+        }
+        .co-ordinate2{
+            top: 43px;
+            left: 458px;
+        }
+        .co-ordinate3{
+            top: 27px;
+            right: 350px;
+        }
+        .co-ordinate4{
+            bottom: 285px;
+            left: 215px;
+        }
+        .co-ordinate5{
+            right: 55px;
+            top: 276px;
+        }
+        .co-ordinate6{
+            right: 55px;
+            bottom: 66px;
+        }
+        .co-ordinate7{
+            top: 80px;
+            left: 673px;
+        }
+        .co-ordinate1 .line{
+            width: 25px;
+            margin-bottom: 100px;
+            margin-left: 170px;
+        }
+        .co-ordinate2 .line{
+            width: 166px;
+            margin-bottom: 50px;
+            left: 150px;
+        }
+        .co-ordinate2 .broken-line{
+            position: relative;
+            width: 3px;
+            height: 25px;
+            background: #4b516b;
+            margin-left: calc( 100% + 134px );
+        }
+        .co-ordinate3 .line{
+            width: 115px;
+            left: 100%;
+            top: 36px;
+        }
+        .co-ordinate4 .line{
+            width: 3px;
+            left: 35px;
+            margin-bottom: 57px;
+        }
+        .co-ordinate5 .line{
+            width: 40px;
+            margin-left: -10px;
+            margin-bottom: 120px;
+        }
+        .co-ordinate6 .line{
+            width: 40px;
+            margin-left: 50px;
+            margin-bottom: 60px;
+        }
+        .co-ordinate7 .line{
+            width: 35px;
+            left: 100%;
+            top: 14px;
+        }
+        .line{
+            position: relative;
+            height: 3px;
+            background: #4b516b;
+        }
+        .co-ordinate7 .line{
+            background: #73788e;
+        }
+        .line::before{
+            content: '';
+            width: 3px;
+            height: 103px;
+            background: #4b516b;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .co-ordinate2 .line::before{
+            height: 53px;
+        }
+        .co-ordinate3 .line::before{
+            height: 0;
+        }
+        .co-ordinate4 .line::before{
+            height: 60px;
+        }
+        .co-ordinate7 .line::before{
+            height: 0;
+        }
+        .line::after,.co-ordinate5 .line::before,.co-ordinate6 .line::before,.co-ordinate2 .broken-line::before{
+            content: '';
+            width: 7px;
+            height: 7px;
+            background: #4b516b;
+            border-radius: 50%;
+            position: absolute;
+            right: 0;
+            top: -2px;
+        }
+        .co-ordinate2 .line::after{
+            width: 0;
+        }
+        .co-ordinate2 .broken-line::before{
+            right: -2px;
+        }
+        .co-ordinate4 .line::after{
+            left: -2px;
+        }
+        .co-ordinate5 .line::after,.co-ordinate6 .line::after{
+            content: '';
+            width: 3px;
+            height: 123px;
+            background: #4b516b;
+            position: absolute;
+            left: 40px;
+            top: 0;
+            border-radius: 0;
+        }
+        .co-ordinate6 .line::after{
+            height: 63px;
+        }
+        .co-ordinate7 .line::after{
+            background: #73788e;
+        }
+        .co-ordinate7 > .label{
+            margin-bottom: 5px;
+        }
+        .co-ordinate8{
+            bottom: 200px;
+            left: 570px;
+        }
+        .co-ordinate8 .line{
+            width: 3px;
+            height: 100px;
+            left: calc( 100% + 57px );
+            top: 135px;
+            background: #73788e;
+        }
+        .co-ordinate8 .line::before{
+            width: 57px;
+            height: 3px;
+            left: -57px;
+            background: #73788e;
+        }
+        .co-ordinate8 .line::after{
+            top: 98px;
+            right: -2px;
+            background: #73788e;
+        }
+        /* 详细报告. 纯文字版 */
+        .tab-txt .co-ordinate1{
+            left: 235px;
+            top: 70px;
+        }
+        .tab-txt .co-ordinate1 .line{
+            width: 60px;
+            margin-left: -20px;
+            margin-bottom: 65px;
+        }
+        .tab-txt .co-ordinate1 .line::before{
+            height: 68px;
+            left: 57px;
+        }
+        .tab-txt .co-ordinate1 .line::after{
+            right: 100%;
+        }
+        .tab-txt .co-ordinate4{
+            bottom: 377px;
+            left: 237px;
+        }
+        .tab-txt .co-ordinate5{
+            right: 70px;
+        }
+        .tab-txt .co-ordinate6{
+            right: 70px;
+            bottom: 90px;
+        }
+        .tab-txt .co-ordinate7{
+            top: 87px;
+            left: 657px;
+        }
+        .tab-txt .co-ordinate8{
+            bottom: 130px;
+            left: 557px;
+        }
+        .tab-txt .co-ordinate8 .line{
+            height: 50px;
+            top: 75px;
+            left: calc( 100% + 56px );
+        }
+        .tab-txt .co-ordinate8 .line::before{
+            width: 56px;
+            left: -56px;
+        }
+        .tab-txt .co-ordinate8 .line::after{
+            top: 50px;
+        }
+        /* 综合评估 */
+        .tab-comprehensive .square{
+            padding: 12px 32px;
+            font-weight: 500;
+        }
+        .tab-comprehensive .co-ordinate5{
+            top: 95px;
+            left: 320px;
+            right: auto;
+        }
+        .tab-comprehensive .co-ordinate6{
+            top: 95px;
+            right: 235px;
+            left: auto;
+        }
+        .tab-comprehensive .co-ordinate5 .line,.tab-comprehensive .co-ordinate6 .line{
+            width: 20px;
+            margin-bottom: 60px;
+            margin-left: 53px;
+        }
+        .tab-comprehensive .co-ordinate5 .line::after,.tab-comprehensive .co-ordinate6 .line::after{
+            height: 63px;
+            left: 20px;
+        }
+        .tab-comprehensive .co-ordinate7{
+            top: 400px;
+            left: 565px;
+            right: auto;
+        }
+        .tab-comprehensive .co-ordinate7 .line{
+            width: 80px;
+            left: -80px;
+            top: 24.5px;
+            background: #4b516b;
+        }
+        .tab-comprehensive .co-ordinate7 .line::after{
+            left: 0;
+            right: auto;
+            background: #4b516b;
+        }
+    </style>
+</head>
+<body class="paper">
+<div class="use_help">
+    <div class="tab-container">
+        <ul class="nav-tabs clearfix">
+                        <li class="active"><a href="#">详细报告. Word版</a></li>
+            <li><a href="#">详细报告. 纯文字版</a></li>
+                        <li><a href="#">综合评估</a></li>
+        </ul>
+        <div class="tab-content">
+                        <div class="tab-pane active">
+                <div>
+                    <div class="pos-abs co-ordinate2">
+                        <div class="broken-line"></div>
+                        <div class="line"></div>
+                        <div class="square">
+                            <p>收起 / 展开</p>
+                            <div>点击后可展开或收起顶部</div>
+                        </div>
+                    </div>
+                    <div class="pos-abs co-ordinate4">
+                        <div class="line"></div>
+                        <div class="square">
+                            <p>论文基本信息</p>
+                            <div>请点击红色和黄色部分</div>
+                        </div>
+                    </div>
+                    <div class="pos-abs co-ordinate5">
+                        <div class="line"></div>
+                        <div class="square">
+                            <p>修改意见</p>
+                            <div>点击此处查看修改意见</div>
+                        </div>
+                    </div>
+                    <div class="pos-abs co-ordinate6">
+                        <div class="line"></div>
+                        <div class="square">
+                            <p>相似来源</p>
+                            <div>相似来源和来源信息</div>
+                        </div>
+                    </div>
+                    <div class="pos-abs co-ordinate7">
+                        <div class="label">
+                            <div class="line"></div>
+                            <div class="square">切换模式</div>
+                        </div>
+                        <div class="label">
+                            <div class="line"></div>
+                            <div class="square">目录导航</div>
+                        </div>
+                        <div class="label">
+                            <div class="line"></div>
+                            <div class="square">页面导航</div>
+                        </div>
+                        <div class="label">
+                            <div class="line"></div>
+                            <div class="square">辅助线</div>
+                        </div>
+                        <div class="label">
+                            <div class="line"></div>
+                            <div class="square">上一页</div>
+                        </div>
+                        <div class="label">
+                            <div class="line"></div>
+                            <div class="square">下一页</div>
+                        </div>
+                        <div class="label">
+                            <div class="line"></div>
+                            <div class="square">输入页码</div>
+                        </div>
+                        <div class="label">
+                            <div class="line"></div>
+                            <div class="square">跳转</div>
+                        </div>
+                    </div>
+                    <div class="pos-abs co-ordinate8">
+                        <div class="line"></div>
+                        <div class="square">
+                            <p>缩放</p>
+                            <div>点击此处展开缩放功能菜单</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="./images/report_help_word.png" alt="">
+                </div>
+            </div>
+                        <div class="tab-pane   ">
+                <div class="tab-txt">
+                    <div class="pos-abs co-ordinate2">
+                        <div class="broken-line"></div>
+                        <div class="line"></div>
+                        <div class="square">
+                            <p>收起 / 展开</p>
+                            <div>点击后可展开或收起顶部</div>
+                        </div>
+                    </div>
+                    <div class="pos-abs co-ordinate1">
+                        <div class="line"></div>
+                        <div class="square">
+                            <p>修改段落</p>
+                        </div>
+                    </div>
+                    <div class="pos-abs co-ordinate4">
+                        <div class="line"></div>
+                        <div class="square">
+                            <p>论文基本信息</p>
+                            <div>请点击红色和黄色部分</div>
+                        </div>
+                    </div>
+                    <div class="pos-abs co-ordinate5">
+                        <div class="line"></div>
+                        <div class="square">
+                            <p>修改意见</p>
+                            <div>点击此处查看修改意见</div>
+                        </div>
+                    </div>
+                    <div class="pos-abs co-ordinate6">
+                        <div class="line"></div>
+                        <div class="square">
+                            <p>相似来源</p>
+                            <div>相似来源和来源信息</div>
+                        </div>
+                    </div>
+                    <div class="pos-abs co-ordinate7">
+                        <div class="label">
+                            <div class="line"></div>
+                            <div class="square">切换模式</div>
+                        </div>
+                        <div class="label">
+                            <div class="line"></div>
+                            <div class="square">页面导航</div>
+                        </div>
+                        <div class="label">
+                            <div class="line"></div>
+                            <div class="square">辅助线</div>
+                        </div>
+                        <div class="label">
+                            <div class="line"></div>
+                            <div class="square">上一页</div>
+                        </div>
+                        <div class="label">
+                            <div class="line"></div>
+                            <div class="square">下一页</div>
+                        </div>
+                        <div class="label">
+                            <div class="line"></div>
+                            <div class="square">输入页码</div>
+                        </div>
+                        <div class="label">
+                            <div class="line"></div>
+                            <div class="square">跳转</div>
+                        </div>
+                    </div>
+                    <div class="pos-abs co-ordinate8">
+                        <div class="line"></div>
+                        <div class="square">
+                            <p>缩放</p>
+                            <div>点击此处展开缩放功能菜单</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="./images/report_help_txt.png" alt="">
+                </div>
+            </div>
+            <div class="tab-pane">
+                <div class="tab-comprehensive">
+                    <div class="pos-abs co-ordinate5">
+                        <div class="line"></div>
+                        <div class="square">论文基本信息</div>
+                    </div>
+                    <div class="pos-abs co-ordinate6">
+                        <div class="line"></div>
+                        <div class="square">相似度总体信息</div>
+                    </div>
+                    <div class="pos-abs co-ordinate7">
+                        <div class="line"></div>
+                        <div class="square">句子信息 / 相似度分布</div>
+                    </div>
+                </div>
+                <div><img src="./images/report_help_comprehensive.png"/></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="paper-footer">
+    <p>检测报告由<a href="https://www.paperpass.com/" target="_black">PaperPass</a>文献相似度检测系统生成</p>
+    <p>Copyright © 2007-2021 PaperPass</p>
+</div>
+</body>
+<script src="./js/jquery.min.js"></script>
+<script type="text/javascript">
+    $('.nav-tabs').find('li').click(function () {
+        var index = $(this).index();
+        $(this).addClass('active').siblings().removeClass('active');
+        $('.tab-content').find('.tab-pane').eq(index).show().siblings().hide();
+    })
+</script>
+</html>

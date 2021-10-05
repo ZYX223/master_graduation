@@ -1,0 +1,1666 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.13)  9 JUL 2021 22:43
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**CMLB.tex
+(./CMLB.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06> (./cas-sc.cls
+Document Class: cas-sc 2020/03/14, 2.1: Formatting class for CAS single column 
+articles
+\c@blind=\count167
+\@bls=\dimen134
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/fleqn.clo
+File: fleqn.clo 2016/12/29 v1.2b Standard LaTeX option (flush left equations)
+\mathindent=\dimen135
+Applying: [2015/01/01] Make \[ robust on input line 50.
+LaTeX Info: Redefining \[ on input line 51.
+Already applied: [0000/00/00] Make \[ robust on input line 62.
+Applying: [2015/01/01] Make \] robust on input line 74.
+LaTeX Info: Redefining \] on input line 75.
+Already applied: [0000/00/00] Make \] robust on input line 83.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen136
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen137
+\Gin@req@width=\dimen138
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen139
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen140
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count176
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count177
+\leftroot@=\count178
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count179
+\DOTSCASE@=\count180
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count181
+\c@MaxMatrixCols=\count182
+\dotsspace@=\muskip16
+\c@parentequation=\count183
+\dspbrk@lvl=\count184
+\tag@help=\toks17
+\row@=\count185
+\column@=\count186
+\maxfields@=\count187
+\andhelp@=\toks18
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks19
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-03-06 L3 programming layer (loader) 
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count188
+\l__pdf_internal_box=\box47
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-03-06 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count189
+\g__xparse_grabber_int=\count190
+\l__xparse_m_args_int=\count191
+\l__xparse_v_nesting_int=\count192
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count193
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen148
+\lightrulewidth=\dimen149
+\cmidrulewidth=\dimen150
+\belowrulesep=\dimen151
+\belowbottomsep=\dimen152
+\aboverulesep=\dimen153
+\abovetopsep=\dimen154
+\cmidrulesep=\dimen155
+\cmidrulekern=\dimen156
+\defaultaddspace=\dimen157
+\@cmidla=\count194
+\@cmidlb=\count195
+\@aboverulesep=\dimen158
+\@belowrulesep=\dimen159
+\@thisruleclass=\count196
+\@lastruleclass=\count197
+\@thisrulewidth=\dimen160
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen161
+\ar@mcellbox=\box48
+\extrarowheight=\dimen162
+\NC@list=\toks21
+\extratabsurround=\skip52
+\backup@length=\skip53
+\ar@cellbox=\box49
+)
+\rotheadsize=\dimen163
+\c@nlinenum=\count198
+\TeXr@lab=\toks22
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip54
+\multirow@cntb=\count199
+\multirow@dima=\skip55
+\bigstrutjot=\dimen164
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+\everycr=\toks23
+\minrowclearance=\skip56
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/sttools/stfloats.sty
+Package: stfloats 2017/03/27 v3.3 Improve float mechanism and baselineskip sett
+ings
+\@dblbotnum=\count266
+\c@dblbotnumber=\count267
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count268
+\decimalpart=\count269
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks24
+\footnotemargin=\dimen165
+\c@pp@next@reset=\count270
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/svgnam.def
+File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen166
+\Hy@linkcounter=\count271
+\Hy@pagecounter=\count272
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count273
+Package hyperref Info: Option `colorlinks' set `true' on input line 4421.
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count274
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen167
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count275
+\Field@Width=\dimen168
+\Fld@charsize=\dimen169
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring ON on input line 6448.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count276
+\c@Item=\count277
+\c@Hfootnote=\count278
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+)
+\Fld@listcount=\count279
+\c@bookmark@seq@number=\count280
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip57
+) (./cas-common.sty
+\l_stm_title_before_dim=\dimen170
+\l_stm_title_after_dim=\dimen171
+\g_ead_int=\count281
+\g_uad_int=\count282
+\@eadauthor=\toks25
+\g_stm_tnote_int=\count283
+\g_stm_fnote_int=\count284
+\g_stm_cor_int=\count285
+\g_stm_au_int=\count286
+\g_stm_aau_int=\count287
+\l_autype_int=\count288
+\l_stm_augroup_before_dim=\dimen172
+\l_stm_augroup_after_dim=\dimen173
+\l_stm_augroup_lskip_tl=\dimen174
+\l_stm_augroup_rskip_tl=\dimen175
+\g_stm_aff_int=\count289
+\l_stm_aff_before_dim=\dimen176
+\l_stm_aff_after_dim=\dimen177
+\l_stm_aff_lskip_dim=\dimen178
+\l_stm_aff_rskip_dim=\dimen179
+\g_stm_augr_int=\count290
+\g_stm_aaugr_int=\count291
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/moreverb/moreverb.sty
+Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks26
+\verbatim@line=\toks27
+\verbatim@in@stream=\read2
+)
+\tab@position=\count292
+\tab@size=\count293
+\listing@line=\count294
+)
+\g_stm_abs_box=\box50
+\casgrabsbox=\box51
+\casauhlbox=\box52
+\g_stm_key_box=\box53
+\g_stm_jtype_int=\count295
+\g_stm_blind_int=\count296
+\c@au=\count297
+\c@cnote=\count298
+\c@tnote=\count299
+\c@fnote=\count300
+\c@aff=\count301
+\g_stm_notes_box=\box54
+\g_stm_front_box=\box55
+\paraindent=\dimen180
+\subparaindent=\dimen181
+\FullWidth=\dimen182
+\l_tbl_width_dim=\dimen183
+\l_tbl_abovecap_skip=\skip58
+\l_tbl_belowcap_skip=\skip59
+\l_tbl_abovetbl_skip=\skip60
+\l_tbl_belowtbl_skip=\skip61
+\l_fig_width_dim=\dimen184
+\l_fig_abovecap_skip=\skip62
+\l_fig_belowcap_skip=\skip63
+\l_fig_abovefig_skip=\skip64
+\l_fig_belowfig_skip=\skip65
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen185
+\WF@size=\dimen186
+\c@WF@wrappedlines=\count302
+\WF@box=\box56
+\WF@everypar=\toks28
+Package: wrapfig 2003/01/31  v 3.6
+)
+\l_wrap_figwidth_dim=\dimen187
+\l_wrap_fighspace_dim=\dimen188
+\l_wrap_figvspace_dim=\dimen189
+\l_wrap_fighcorr_dim=\dimen190
+\l_wrap_figvcorr_dim=\dimen191
+\l_above_bio_dim=\dimen192
+\l_wrap_figlcorr_int=\count303
+\l_wrap_figlines_int=\count304
+\l_bio_text_box=\box57
+\c@ca_biography_ctr=\count305
+\l_ca_temp_inta=\count306
+\leftMargin=\dimen193
+\@enLab=\toks29
+\@sep=\skip66
+\@@sep=\skip67
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/stix/stix.sty
+Package: stix 2018/04/17 v1.1.3-latex STIX fonts support package
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+LaTeX Font Info:    Changing ? sub-encoding to TS1/0 on input line 75.
+)
+Now handling font encoding LS1 ...
+... no UTF-8 mapping file for font encoding LS1
+Now handling font encoding LS2 ...
+... no UTF-8 mapping file for font encoding LS2
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 76.
+LaTeX Font Info:    Encoding `OML' has changed to `LS1' for symbol font
+(Font)              `letters' in the math version `normal' on input line 76.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> LS1/stix/m/it on input line 76.
+LaTeX Font Info:    Encoding `OML' has changed to `LS1' for symbol font
+(Font)              `letters' in the math version `bold' on input line 76.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> LS1/stix/m/it on input line 76.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 77.
+LaTeX Font Info:    Encoding `OT1' has changed to `LS1' for symbol font
+(Font)              `operators' in the math version `normal' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> LS1/stix/m/n on input line 77.
+LaTeX Font Info:    Encoding `OT1' has changed to `LS1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> LS1/stix/m/n on input line 77.
+\symbold-operators=\mathgroup6
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 79.
+LaTeX Font Info:    Encoding `OMS' has changed to `LS1' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 79.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> LS1/stixscr/m/n on input line 79.
+LaTeX Font Info:    Encoding `OMS' has changed to `LS1' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 79.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> LS1/stixscr/m/n on input line 79.
+\symsymbols2=\mathgroup7
+\symsymbols3=\mathgroup8
+\symsymbols4=\mathgroup9
+\symintegrals=\mathgroup10
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 84.
+LaTeX Font Info:    Encoding `OMX' has changed to `LS2' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 8
+4.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> LS2/stixex/m/n on input line 84.
+LaTeX Font Info:    Encoding `OMX' has changed to `LS2' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 84.
+
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> LS2/stixex/m/n on input line 84.
+\symarrows1=\mathgroup11
+\symarrows2=\mathgroup12
+\symarrows3=\mathgroup13
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  LS1/stix/m/it --> LS1/stix/b/it on input line 88.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  LS1/stix/m/n --> LS1/stix/b/n on input line 89.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  LS1/stixscr/m/n --> LS1/stixscr/b/n on input line 90.
+LaTeX Font Info:    Overwriting symbol font `symbols2' in version `bold'
+(Font)                  LS1/stixfrak/m/n --> LS1/stixfrak/b/n on input line 91.
+
+LaTeX Font Info:    Overwriting symbol font `symbols3' in version `bold'
+(Font)                  LS1/stixbb/m/n --> LS1/stixbb/b/n on input line 92.
+LaTeX Font Info:    Overwriting symbol font `symbols4' in version `bold'
+(Font)                  LS1/stixbb/m/it --> LS1/stixbb/b/it on input line 93.
+LaTeX Font Info:    Overwriting symbol font `integrals' in version `bold'
+(Font)                  LS2/stixcal/m/n --> LS2/stixcal/b/n on input line 94.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  LS2/stixex/m/n --> LS2/stixex/b/n on input line 95.
+LaTeX Font Info:    Overwriting symbol font `arrows1' in version `bold'
+(Font)                  LS1/stixsf/m/n --> LS1/stixsf/b/n on input line 96.
+LaTeX Font Info:    Overwriting symbol font `arrows2' in version `bold'
+(Font)                  LS1/stixsf/m/it --> LS1/stixsf/b/it on input line 97.
+LaTeX Font Info:    Overwriting symbol font `arrows3' in version `bold'
+(Font)                  LS2/stixtt/m/n --> LS2/stixtt/b/n on input line 98.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 99.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 102.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 106.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 108.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 109.
+LaTeX Info: Redefining \yen on input line 456.
+LaTeX Info: Redefining \circledR on input line 458.
+LaTeX Info: Redefining \checkmark on input line 460.
+LaTeX Info: Redefining \maltese on input line 461.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 698.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 699.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 700.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 701.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 702.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 703.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 704.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 705.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 707.
+LaTeX Font Info:    Redeclaring math accent \check on input line 708.
+LaTeX Font Info:    Redeclaring math accent \vec on input line 716.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 728.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 729.
+LaTeX Info: Redefining \vdots on input line 1518.
+LaTeX Info: Redefining \cdots on input line 1522.
+LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 1978.
+LaTeX Info: Redefining \not on input line 2144.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count307
+\Gm@cntv=\count308
+\c@Gm@tempcnt=\count309
+\Gm@bindingoffset=\dimen194
+\Gm@wd@mp=\dimen195
+\Gm@odd@mp=\dimen196
+\Gm@even@mp=\dimen197
+\Gm@layoutwidth=\dimen198
+\Gm@layoutheight=\dimen199
+\Gm@layouthoffset=\dimen256
+\Gm@layoutvoffset=\dimen257
+\Gm@dimlist=\toks30
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip68
+\bibsep=\skip69
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count310
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip70
+\subfigcapskip=\skip71
+\subfigcaptopadj=\dimen258
+\subfigbottomskip=\skip72
+\subfigcapmargin=\dimen259
+\subfiglabelskip=\skip73
+\c@subfigure=\count311
+\c@lofdepth=\count312
+\c@subtable=\count313
+\c@lotdepth=\count314
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2020/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip74
+\subfig@bottom=\skip75
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count315
+\float@exts=\toks31
+\float@box=\box58
+\@float@everytoks=\toks32
+\@floatcapt=\box59
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks33
+\c@algorithm=\count316
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count317
+\c@ALG@rem=\count318
+\c@ALG@nested=\count319
+\ALG@tlm=\skip76
+\ALG@thistlm=\skip77
+\c@ALG@Lnr=\count320
+\c@ALG@blocknr=\count321
+\c@ALG@storecount=\count322
+\c@ALG@tmpcounter=\count323
+\ALG@tmplength=\skip78
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (./CMLB.aux
+./CMLB.aux:20: Undefined control sequence.
+<argument> ...iginal draft preparation, Writing\T 
+                                                  1\textemdash review and ed...
+l.20 ...view and editing, Validation}{Yuxin Zhang}
+                                                  
+? s
+OK, entering \scrollmode...
+
+LaTeX Warning: Label `tbl1' multiply defined.
+
+
+LaTeX Warning: Label `tbl1' multiply defined.
+
+
+LaTeX Warning: Label `tbl1' multiply defined.
+
+)
+\openout1 = `CMLB.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 42.
+LaTeX Font Info:    Trying to load font information for LS1+stix on input line 
+42.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/stix/ls1stix.fd
+File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
+)
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 42.
+LaTeX Font Info:    Trying to load font information for LS2+stix on input line 
+42.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/stix/ls2stix.fd
+File: ls2stix.fd 2015/04/17 v1.1.2-latex STIX LS2 font definitions
+)
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Trying to load font information for T1+stix on input line 4
+2.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/stix/t1stix.fd
+File: t1stix.fd 2015/04/17 v1.1.2-latex STIX T1 font definitions
+)
+(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count324
+\scratchdimen=\dimen260
+\scratchbox=\box60
+\nofMPsegments=\count325
+\nofMParguments=\count326
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count327
+\MPscratchDim=\dimen261
+\MPnumerator=\count328
+\makeMPintoPDFobject=\count329
+\everyMPtoPDFconversion=\toks35
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box61
+Package hyperref Info: Link coloring ON on input line 42.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count330
+)
+LaTeX Info: Redefining \ref on input line 42.
+LaTeX Info: Redefining \pageref on input line 42.
+LaTeX Info: Redefining \nameref on input line 42.
+ (./CMLB.out) (./CMLB.out)
+\@outlinefile=\write3
+\openout3 = `CMLB.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(38.98026pt, 468.3324pt, 38.98026pt)
+* v-part:(T,H,B)=(54.06023pt, 637.34175pt, 54.06023pt)
+* \paperwidth=546.29291pt
+* \paperheight=745.4622pt
+* \textwidth=468.3324pt
+* \textheight=637.34175pt
+* \oddsidemargin=-33.28973pt
+* \evensidemargin=-33.28973pt
+* \topmargin=-42.20976pt
+* \headheight=12.0pt
+* \headsep=12.0pt
+* \topskip=10.0pt
+* \footskip=12.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\verbatim@out=\write4
+\openout4 = `CMLB.abs'.
+
+LaTeX Font Info:    Trying to load font information for LS1+stixscr on input li
+ne 91.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/stix/ls1stixscr.fd
+File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixex on input lin
+e 91.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/stix/ls2stixex.fd
+File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
+
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 91.
+
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 91.
+
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixfrak on input l
+ine 91.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/stix/ls1stixfrak.fd
+File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixbb on input lin
+e 91.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/stix/ls1stixbb.fd
+File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
+
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixcal on input li
+ne 91.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/stix/ls2stixcal.fd
+File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definiti
+ons
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixsf on input lin
+e 91.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/stix/ls1stixsf.fd
+File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
+
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixtt on input lin
+e 91.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/stix/ls2stixtt.fd
+File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
+
+)
+Overfull \hbox (117.0831pt too wide) detected at line 91
+[]
+ []
+
+(./CMLB.abs)
+
+Package hyperref Warning: Ignoring empty anchor on input line 91.
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 91.
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 91.
+
+<thumbnails/cas-email.jpeg, id=4, 225.84375pt x 225.84375pt>
+File: thumbnails/cas-email.jpeg Graphic file (type jpg)
+<use thumbnails/cas-email.jpeg>
+Package pdftex.def Info: thumbnails/cas-email.jpeg  used on input line 91.
+(pdftex.def)             Requested size: 7.99838pt x 8.0pt.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 9
+1.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+
+Package hyperref Warning: Ignoring empty anchor on input line 91.
+
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
+03.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+) [1
+
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./thumb
+nails/cas-email.jpeg>]
+./CMLB.tex:107: Missing $ inserted.
+<inserted text> 
+                $
+l.107 ...s, and it have a lower complexity of O(N^
+                                                  3)$ than TreeMatch. Soomro...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+<figs/Fig1a.pdf, id=44, 342.27875pt x 288.07625pt>
+File: figs/Fig1a.pdf Graphic file (type pdf)
+<use figs/Fig1a.pdf>
+Package pdftex.def Info: figs/Fig1a.pdf  used on input line 129.
+(pdftex.def)             Requested size: 154.024pt x 129.6331pt.
+<figs/Fig1b.pdf, id=45, 283.0575pt x 269.005pt>
+File: figs/Fig1b.pdf Graphic file (type pdf)
+<use figs/Fig1b.pdf>
+Package pdftex.def Info: figs/Fig1b.pdf  used on input line 136.
+(pdftex.def)             Requested size: 127.37468pt x 121.05112pt.
+[2pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.142 
+       <./figs/Fig1a.pdf> <./figs/Fig1b.pdf>]
+<figs/Fig2a.jpg, id=88, 433.62pt x 289.08pt>
+File: figs/Fig2a.jpg Graphic file (type jpg)
+<use figs/Fig2a.jpg>
+Package pdftex.def Info: figs/Fig2a.jpg  used on input line 169.
+(pdftex.def)             Requested size: 173.44492pt x 115.62994pt.
+<figs/Fig2b.jpg, id=89, 433.62pt x 289.08pt>
+File: figs/Fig2b.jpg Graphic file (type jpg)
+<use figs/Fig2b.jpg>
+Package pdftex.def Info: figs/Fig2b.jpg  used on input line 176.
+(pdftex.def)             Requested size: 173.44492pt x 115.62994pt.
+<figs/Fig2c.jpg, id=90, 433.62pt x 289.08pt>
+File: figs/Fig2c.jpg Graphic file (type jpg)
+<use figs/Fig2c.jpg>
+Package pdftex.def Info: figs/Fig2c.jpg  used on input line 184.
+(pdftex.def)             Requested size: 173.44492pt x 115.62994pt.
+<figs/Fig2d.jpg, id=91, 433.62pt x 289.08pt>
+File: figs/Fig2d.jpg Graphic file (type jpg)
+<use figs/Fig2d.jpg>
+Package pdftex.def Info: figs/Fig2d.jpg  used on input line 191.
+(pdftex.def)             Requested size: 173.44492pt x 115.62994pt.
+ [3]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 200.
+
+./CMLB.tex:206: Missing $ inserted.
+<inserted text> 
+                $
+l.206 \State num = len(s) \times
+                                0.05$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./CMLB.tex:218: Missing } inserted.
+<inserted text> 
+                }
+l.218 \end{algorithmic}
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[4pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.222 
+       <./figs/Fig2a.jpg> <./figs/Fig2b.jpg> <./figs/Fig2c.jpg> <./figs/Fig2d.j
+pg>] [5]
+./CMLB.tex:284: Missing $ inserted.
+<inserted text> 
+                $
+l.284 ... to the list of grouped threads $t$ = [t_
+                                                  1,t_2,t_3]$ and the commun...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./CMLB.tex:284: Missing $ inserted.
+<inserted text> 
+                $
+l.284 ...rom high to low. We select each thread t_
+                                                  w$ from all the remaining ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./CMLB.tex:288: Missing $ inserted.
+<inserted text> 
+                $
+l.288 ...unication between one remaining thread t_
+                                                  w$ and all the threads in ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./CMLB.tex:288: Missing $ inserted.
+<inserted text> 
+                $
+l.288 ...t the communication rank list:[[$C_1$, t_
+                                                  w_1], [$C_2$,t_w_2], …]$...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./CMLB.tex:288: Double subscript.
+l.288 ...the communication rank list:[[$C_1$, t_w_
+                                                  1], [$C_2$,t_w_2], …]$. ...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+./CMLB.tex:288: Missing $ inserted.
+<inserted text> 
+                $
+l.288 ...unication rank list:[[$C_1$, t_w_1], [$C_
+                                                  2$,t_w_2], …]$. When sel...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./CMLB.tex:288: Missing $ inserted.
+<inserted text> 
+                $
+l.288 ...tion rank list:[[$C_1$, t_w_1], [$C_2$,t_
+                                                  w_2], …]$. When selectin...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./CMLB.tex:288: Double subscript.
+l.288 ...on rank list:[[$C_1$, t_w_1], [$C_2$,t_w_
+                                                  2], …]$. When selecting ...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 288.
+
+./CMLB.tex:288: Missing $ inserted.
+<inserted text> 
+                $
+l.288 ..., and then check that if inserting the t_
+                                                  w_1$ will destroy the memo...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./CMLB.tex:288: Double subscript.
+l.288 ...and then check that if inserting the t_w_
+                                                  1$ will destroy the memory...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+./CMLB.tex:288: Missing $ inserted.
+<inserted text> 
+                $
+l.288 ...cess load vector. If it not, inserting t_
+                                                  w_1$ in the group will be ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./CMLB.tex:288: Double subscript.
+l.288 ...ss load vector. If it not, inserting t_w_
+                                                  1$ in the group will be sa...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+./CMLB.tex:288: Missing $ inserted.
+<inserted text> 
+                $
+l.288 ...afe, otherwise, choose the next thread t_
+                                                  w_2$ in the communication ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./CMLB.tex:288: Double subscript.
+l.288 ...e, otherwise, choose the next thread t_w_
+                                                  2$ in the communication ra...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+[6] [7]
+<figs/Fig3a.pdf, id=158, 426.59375pt x 310.15875pt>
+File: figs/Fig3a.pdf Graphic file (type pdf)
+<use figs/Fig3a.pdf>
+Package pdftex.def Info: figs/Fig3a.pdf  used on input line 369.
+(pdftex.def)             Requested size: 170.63446pt x 124.0613pt.
+<figs/Fig3b.pdf, id=159, 453.695pt x 310.15875pt>
+File: figs/Fig3b.pdf Graphic file (type pdf)
+<use figs/Fig3b.pdf>
+Package pdftex.def Info: figs/Fig3b.pdf  used on input line 376.
+(pdftex.def)             Requested size: 181.47478pt x 124.0613pt.
+<figs/Fig3c.pdf, id=160, 385.44pt x 200.75pt>
+File: figs/Fig3c.pdf Graphic file (type pdf)
+<use figs/Fig3c.pdf>
+Package pdftex.def Info: figs/Fig3c.pdf  used on input line 384.
+(pdftex.def)             Requested size: 165.73596pt x 86.3208pt.
+ [8pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.395 
+       <./figs/Fig3a.pdf> <./figs/Fig3b.pdf> <./figs/Fig3c.pdf>]
+./CMLB.tex:409: Double subscript.
+l.409 	Load_s_
+              t_d =   \sqrt{\frac{\sum_{i=1}^{n}(L_i-L) }{n}}
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+./CMLB.tex:409: Double subscript.
+l.409 	Load_s_t_
+                d =   \sqrt{\frac{\sum_{i=1}^{n}(L_i-L) }{n}}
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+./CMLB.tex:414: Double subscript.
+l.414 \end{equation}In Equation 8, where $Load_s_
+                                                 t_d$ represents the standar...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+./CMLB.tex:414: Double subscript.
+l.414 ...{equation}In Equation 8, where $Load_s_t_
+                                                  d$ represents the standard...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+./CMLB.tex:414: Missing $ inserted.
+<inserted text> 
+                $
+l.414 ...s. And $L_i$ is the access load in the i^
+                                                  {th} group, L$ represents ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./CMLB.tex:414: Double subscript.
+l.414 ...ector is the access load vector. $Load_s_
+                                                  t_d$ corresponds to the im...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+./CMLB.tex:414: Double subscript.
+l.414 ...tor is the access load vector. $Load_s_t_
+                                                  d$ corresponds to the imba...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+./CMLB.tex:422: Missing $ inserted.
+<inserted text> 
+                $
+l.422 		Method & RemoteComm & Load_
+                                   s_t_d \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./CMLB.tex:422: Double subscript.
+l.422 		Method & RemoteComm & Load_s_
+                                     t_d \\
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+./CMLB.tex:422: Double subscript.
+l.422 		Method & RemoteComm & Load_s_t_
+                                       d \\
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+./CMLB.tex:423: Missing $ inserted.
+<inserted text> 
+                $
+l.423 		\midrule
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./CMLB.tex:424: Missing $ inserted.
+<inserted text> 
+                $
+l.424 		CMLB & 1.99 \times
+                           10^8 &139.37 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./CMLB.tex:424: Missing $ inserted.
+<inserted text> 
+                $
+l.424 		CMLB & 1.99 \times 10^8 &
+                                 139.37 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./CMLB.tex:425: Missing $ inserted.
+<inserted text> 
+                $
+l.425 		EagerMap & 1.90 \times
+                               10^8 & 33455.01 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./CMLB.tex:425: Missing $ inserted.
+<inserted text> 
+                $
+l.425 		EagerMap & 1.90 \times 10^8 &
+                                      33455.01 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./CMLB.tex:426: Missing $ inserted.
+<inserted text> 
+                $
+l.426 		TreeMatch & 2.13 \times
+                                10^8 & 29343.56 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./CMLB.tex:426: Missing $ inserted.
+<inserted text> 
+                $
+l.426 		TreeMatch & 2.13 \times 10^8 &
+                                       29343.56 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./CMLB.tex:427: Missing $ inserted.
+<inserted text> 
+                $
+l.427 		ChoiceMap & 1.92 \times
+                                10^8 & 33214.47 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./CMLB.tex:427: Missing $ inserted.
+<inserted text> 
+                $
+l.427 		ChoiceMap & 1.92 \times 10^8 &
+                                       33214.47 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./CMLB.tex:436: Missing $ inserted.
+<inserted text> 
+                $
+l.436 		Method & RemoteComm & Load_
+                                   s_t_d \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./CMLB.tex:436: Double subscript.
+l.436 		Method & RemoteComm & Load_s_
+                                     t_d \\
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+./CMLB.tex:436: Double subscript.
+l.436 		Method & RemoteComm & Load_s_t_
+                                       d \\
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+./CMLB.tex:437: Missing $ inserted.
+<inserted text> 
+                $
+l.437 		\midrule
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./CMLB.tex:438: Missing $ inserted.
+<inserted text> 
+                $
+l.438 		CMLB & 3.51 \times
+                           10^7 &462.69 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./CMLB.tex:438: Missing $ inserted.
+<inserted text> 
+                $
+l.438 		CMLB & 3.51 \times 10^7 &
+                                 462.69 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./CMLB.tex:439: Missing $ inserted.
+<inserted text> 
+                $
+l.439 		EagerMap & 3.40 \times
+                               10^7 & 29310.60 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./CMLB.tex:439: Missing $ inserted.
+<inserted text> 
+                $
+l.439 		EagerMap & 3.40 \times 10^7 &
+                                      29310.60 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./CMLB.tex:440: Missing $ inserted.
+<inserted text> 
+                $
+l.440 		TreeMatch & 3.62 \times
+                                10^7 & 28913.45 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./CMLB.tex:440: Missing $ inserted.
+<inserted text> 
+                $
+l.440 		TreeMatch & 3.62 \times 10^7 &
+                                       28913.45 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./CMLB.tex:441: Missing $ inserted.
+<inserted text> 
+                $
+l.441 		ChoiceMap & 3.54 \times
+                                10^7 & 28712.68 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./CMLB.tex:441: Missing $ inserted.
+<inserted text> 
+                $
+l.441 		ChoiceMap & 3.54 \times 10^7 &
+                                       28712.68 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+./CMLB.tex:450: Missing $ inserted.
+<inserted text> 
+                $
+l.450 		Method & RemoteComm & Load_
+                                   s_t_d \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./CMLB.tex:450: Double subscript.
+l.450 		Method & RemoteComm & Load_s_
+                                     t_d \\
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+./CMLB.tex:450: Double subscript.
+l.450 		Method & RemoteComm & Load_s_t_
+                                       d \\
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+./CMLB.tex:451: Missing $ inserted.
+<inserted text> 
+                $
+l.451 		\midrule
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./CMLB.tex:452: Missing $ inserted.
+<inserted text> 
+                $
+l.452 		CMLB & 2.27 \times
+                           10^8 &968.89 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./CMLB.tex:452: Missing $ inserted.
+<inserted text> 
+                $
+l.452 		CMLB & 2.27 \times 10^8 &
+                                 968.89 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./CMLB.tex:453: Missing $ inserted.
+<inserted text> 
+                $
+l.453 		EagerMap & 1.89 \times
+                               10^8 & 36440.19 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./CMLB.tex:453: Missing $ inserted.
+<inserted text> 
+                $
+l.453 		EagerMap & 1.89 \times 10^8 &
+                                      36440.19 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./CMLB.tex:454: Missing $ inserted.
+<inserted text> 
+                $
+l.454 		TreeMatch & 2.01 \times
+                                10^8 & 36642.56 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./CMLB.tex:454: Missing $ inserted.
+<inserted text> 
+                $
+l.454 		TreeMatch & 2.01 \times 10^8 &
+                                       36642.56 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./CMLB.tex:455: Missing $ inserted.
+<inserted text> 
+                $
+l.455 		ChoiceMap & 1.97 \times
+                                10^8 & 35951.62 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./CMLB.tex:455: Missing $ inserted.
+<inserted text> 
+                $
+l.455 		ChoiceMap & 1.97 \times 10^8 &
+                                       35951.62 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+./CMLB.tex:461: Double subscript.
+l.461 ...at an order of magnitude. As for $Load_s_
+                                                  t_d$ of 3 applications, CM...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+./CMLB.tex:461: Double subscript.
+l.461 ... an order of magnitude. As for $Load_s_t_
+                                                  d$ of 3 applications, CMLB...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+[9pdfTeX warning (ext4): destination with the same identifier (name{table.1}) h
+as been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.466 \section
+              {Experiment and analysis} \label{sect4}]
+./CMLB.tex:480: Missing $ inserted.
+<inserted text> 
+                $
+l.480 		Cache & 8 \times
+                        $(32 KB+32 KB) L1, 8 \times$256 KB L2, 20MB L3 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./CMLB.tex:480: Missing $ inserted.
+<inserted text> 
+                $
+l.480 ...che & 8 \times$(32 KB+32 KB) L1, 8 \times
+                                                  $256 KB L2, 20MB L3 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[10pdfTeX warning (ext4): destination with the same identifier (name{table.2}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.490 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.3
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.490 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.4
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.490 
+      ]
+<figs/Fig5a.png, id=214, 433.62pt x 289.08pt>
+File: figs/Fig5a.png Graphic file (type png)
+<use figs/Fig5a.png>
+Package pdftex.def Info: figs/Fig5a.png  used on input line 509.
+(pdftex.def)             Requested size: 173.44492pt x 115.62994pt.
+<figs/Fig5b.png, id=216, 433.62pt x 289.08pt>
+File: figs/Fig5b.png Graphic file (type png)
+<use figs/Fig5b.png>
+Package pdftex.def Info: figs/Fig5b.png  used on input line 516.
+(pdftex.def)             Requested size: 173.44492pt x 115.62994pt.
+<figs/Fig5c.png, id=217, 433.62pt x 289.08pt>
+File: figs/Fig5c.png Graphic file (type png)
+<use figs/Fig5c.png>
+Package pdftex.def Info: figs/Fig5c.png  used on input line 524.
+(pdftex.def)             Requested size: 173.44492pt x 115.62994pt.
+ [11pdfTeX warning (ext4): destination with the same identifier (name{figure.4}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.530 
+       <./figs/Fig5a.png> <./figs/Fig5b.png> <./figs/Fig5c.png>]
+<figs/Fig6a.png, id=230, 433.62pt x 289.08pt>
+File: figs/Fig6a.png Graphic file (type png)
+<use figs/Fig6a.png>
+Package pdftex.def Info: figs/Fig6a.png  used on input line 543.
+(pdftex.def)             Requested size: 173.44492pt x 115.62994pt.
+<figs/Fig6b.png, id=231, 433.62pt x 289.08pt>
+File: figs/Fig6b.png Graphic file (type png)
+<use figs/Fig6b.png>
+Package pdftex.def Info: figs/Fig6b.png  used on input line 550.
+(pdftex.def)             Requested size: 173.44492pt x 115.62994pt.
+<figs/Fig6c.png, id=232, 433.62pt x 289.08pt>
+File: figs/Fig6c.png Graphic file (type png)
+<use figs/Fig6c.png>
+Package pdftex.def Info: figs/Fig6c.png  used on input line 558.
+(pdftex.def)             Requested size: 173.44492pt x 115.62994pt.
+<figs/Fig6d.png, id=233, 433.62pt x 289.08pt>
+File: figs/Fig6d.png Graphic file (type png)
+<use figs/Fig6d.png>
+Package pdftex.def Info: figs/Fig6d.png  used on input line 565.
+(pdftex.def)             Requested size: 173.44492pt x 115.62994pt.
+ [12pdfTeX warning (ext4): destination with the same identifier (name{figure.5}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.574 
+       <./figs/Fig6a.png> <./figs/Fig6b.png> <./figs/Fig6c.png> <./figs/Fig6d.p
+ng>]
+<figs/Fig7a.png, id=248, 433.62pt x 289.08pt>
+File: figs/Fig7a.png Graphic file (type png)
+<use figs/Fig7a.png>
+Package pdftex.def Info: figs/Fig7a.png  used on input line 589.
+(pdftex.def)             Requested size: 173.44492pt x 115.62994pt.
+<figs/Fig7b.png, id=249, 433.62pt x 289.08pt>
+File: figs/Fig7b.png Graphic file (type png)
+<use figs/Fig7b.png>
+Package pdftex.def Info: figs/Fig7b.png  used on input line 596.
+(pdftex.def)             Requested size: 173.44492pt x 115.62994pt.
+<figs/Fig7c.png, id=250, 433.62pt x 289.08pt>
+File: figs/Fig7c.png Graphic file (type png)
+<use figs/Fig7c.png>
+Package pdftex.def Info: figs/Fig7c.png  used on input line 604.
+(pdftex.def)             Requested size: 173.44492pt x 115.62994pt.
+<figs/Fig7d.png, id=251, 433.62pt x 289.08pt>
+File: figs/Fig7d.png Graphic file (type png)
+<use figs/Fig7d.png>
+Package pdftex.def Info: figs/Fig7d.png  used on input line 611.
+(pdftex.def)             Requested size: 173.44492pt x 115.62994pt.
+ [13pdfTeX warning (ext4): destination with the same identifier (name{figure.6}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.626 \section
+              {Declaration of competing interest} <./figs/Fig7a.png> <./figs/Fi
+g7b.png> <./figs/Fig7c.png> <./figs/Fig7d.png>]
+./CMLB.tex:651: Misplaced alignment tab character &.
+l.651 ...ore parallel environments,” Computers &
+                                                   Fluids, vol. 80, pp. 88�...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./CMLB.tex:652: Misplaced alignment tab character &.
+l.652 ...ting,” in IEEE International Parallel &
+                                                   Distributed Processing Sy...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 662--663
+[]\T1/stix/m/n/8 Intel. 2010. In-tel Mi-croar-chi-tec-ture Co-de-name Ne-halem 
+Per-for-mance Mon-i-tor-ing Unit Pro-gram-ming Guide.
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 681.
+[14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 681.
+ (./CMLB.aux
+./CMLB.aux:20: Undefined control sequence.
+<argument> ...iginal draft preparation, Writing\T 
+                                                  1\textemdash review and ed...
+l.20 ...view and editing, Validation}{Yuxin Zhang}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 681.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 681.
+Package rerunfilecheck Info: File `CMLB.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 14337 strings out of 480608
+ 207635 string characters out of 5903630
+ 476730 words of memory out of 5000000
+ 29822 multiletter control sequences out of 15000+600000
+ 631826 words of font info for 157 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 42i,11n,52p,1368b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}</usr/loca
+l/texlive/2020/texmf-dist/fonts/type1/public/stix/STIXGeneral-Bold.pfb></usr/lo
+cal/texlive/2020/texmf-dist/fonts/type1/public/stix/STIXGeneral-BoldItalic.pfb>
+</usr/local/texlive/2020/texmf-dist/fonts/type1/public/stix/STIXGeneral-Italic.
+pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/stix/STIXGeneral-Reg
+ular.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss09
+00.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx0900
+.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt0800.p
+fb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb>
+</usr/local/texlive/2020/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb></u
+sr/local/texlive/2020/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb>
+Output written on CMLB.pdf (14 pages, 3389789 bytes).
+PDF statistics:
+ 333 PDF objects out of 1000 (max. 8388607)
+ 261 compressed objects within 3 object streams
+ 99 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+

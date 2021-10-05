@@ -1,0 +1,184 @@
+\begin{thebibliography}{10}
+
+\bibitem{1onlinetune}
+{\'{E}}ric Gaussier, J{\'{e}}r{\^{o}}me Lelong, Valentin Reis, and Denis
+  Trystram.
+\newblock Online tuning of easy-backfilling using queue reordering policies.
+\newblock {\em {IEEE} Trans. Parallel Distrib. Syst.}, 29(10):2304--2316, 2018.
+
+\bibitem{3Cluster17}
+Yuping Fan, Paul Rich, William~E. Allcock, Michael~E. Papka, and Zhiling Lan.
+\newblock Trade-off between prediction accuracy and underestimation rate in job
+  runtime estimates.
+\newblock In {\em 2017 {IEEE} International Conference on Cluster Computing,
+  {CLUSTER} 2017, Honolulu, HI, USA, September 5-8, 2017}, pages 530--540.
+  {IEEE} Computer Society, 2017.
+
+\bibitem{4SC17}
+Danilo Carastan{-}Santos and Raphael~Y. de~Camargo.
+\newblock Obtaining dynamic scheduling policies with simulation and machine
+  learning.
+\newblock In Bernd Mohr and Padma Raghavan, editors, {\em Proceedings of the
+  International Conference for High Performance Computing, Networking, Storage
+  and Analysis, {SC} 2017, Denver, CO, USA, November 12 - 17, 2017}, pages
+  32:1--32:13. {ACM}, 2017.
+
+\bibitem{5Cluster09}
+Wei Tang, Zhiling Lan, Narayan Desai, and Daniel Buettner.
+\newblock Fault-aware, utility-based job scheduling on blue, gene/p systems.
+\newblock In {\em Proceedings of the 2009 {IEEE} International Conference on
+  Cluster Computing, August 31 - September 4, 2009, New Orleans, Louisiana,
+  {USA}}, pages 1--10. {IEEE} Computer Society, 2009.
+
+\bibitem{2SC15}
+{\'{E}}ric Gaussier, David Glesser, Valentin Reis, and Denis Trystram.
+\newblock Improving backfilling by using machine learning to predict running
+  times.
+\newblock In Jackie Kern and Jeffrey~S. Vetter, editors, {\em Proceedings of
+  the International Conference for High Performance Computing, Networking,
+  Storage and Analysis, {SC} 2015, Austin, TX, USA, November 15-20, 2015},
+  pages 64:1--64:10. {ACM}, 2015.
+
+\bibitem{6Tsafrir}
+Dan Tsafrir, Yoav Etsion, and Dror~G. Feitelson.
+\newblock Backfilling using system-generated predictions rather than user
+  runtime estimates.
+\newblock {\em {IEEE} Trans. Parallel Distrib. Syst.}, 18(6):789--803, 2007.
+
+\bibitem{7Sim}
+Mohammad~Abu Obaida and Jason Liu.
+\newblock Simulation of {HPC} job scheduling and large-scale parallel
+  workloads.
+\newblock In {\em 2017 Winter Simulation Conference, {WSC} 2017, Las Vegas, NV,
+  USA, December 3-6, 2017}, pages 920--931. {IEEE}, 2017.
+
+\bibitem{8Model}
+Dan Tsafrir, Yoav Etsion, and Dror~G. Feitelson.
+\newblock Modeling user runtime estimates.
+\newblock In Dror~G. Feitelson, Eitan Frachtenberg, Larry Rudolph, and Uwe
+  Schwiegelshohn, editors, {\em Job Scheduling Strategies for Parallel
+  Processing, 11th International Workshop, {JSSPP} 2005, Cambridge, MA, USA,
+  June 19, 2005, Revised Selected Papers}, volume 3834 of {\em Lecture Notes in
+  Computer Science}, pages 1--35. Springer, 2005.
+
+\bibitem{9JSC}
+Ju{-}Won Park and Eunhye Kim.
+\newblock Runtime prediction of parallel applications with workload-aware
+  clustering.
+\newblock {\em J. Supercomput.}, 73(11):4635--4651, 2017.
+
+\bibitem{10JPDC}
+Dror~G. Feitelson, Dan Tsafrir, and David Krakov.
+\newblock Experience with using the parallel workloads archive.
+\newblock {\em J. Parallel Distributed Comput.}, 74(10):2967--2982, 2014.
+
+\bibitem{11JSSPP}
+Dalibor Klus{\'{a}}cek and V{\'{a}}clav Chlumsk{\'{y}}.
+\newblock Evaluating the impact of soft walltimes on job scheduling
+  performance.
+\newblock In Dalibor Klus{\'{a}}cek, Walfredo Cirne, and Narayan Desai,
+  editors, {\em Job Scheduling Strategies for Parallel Processing - 22nd
+  International Workshop, {JSSPP} 2018, Vancouver, BC, Canada, May 25, 2018,
+  Revised Selected Papers}, volume 11332 of {\em Lecture Notes in Computer
+  Science}, pages 15--38. Springer, 2018.
+
+\bibitem{12EASY}
+Joseph Skovira, Waiman Chan, Honbo Zhou, and David~A. Lifka.
+\newblock The {EASY} - loadleveler {API} project.
+\newblock In Dror~G. Feitelson and Larry Rudolph, editors, {\em Job Scheduling
+  Strategies for Parallel Processing, IPPS'96 Workshop, Honolulu, Haiwai, USA,
+  April 16, 1996, Proceedings}, volume 1162 of {\em Lecture Notes in Computer
+  Science}, pages 41--47. Springer, 1996.
+
+\bibitem{13Slurm}
+Andy~B. Yoo, Morris~A. Jette, and Mark Grondona.
+\newblock {SLURM:} simple linux utility for resource management.
+\newblock In Dror~G. Feitelson, Larry Rudolph, and Uwe Schwiegelshohn, editors,
+  {\em Job Scheduling Strategies for Parallel Processing, 9th International
+  Workshop, {JSSPP} 2003, Seattle, WA, USA, June 24, 2003, Revised Papers},
+  volume 2862 of {\em Lecture Notes in Computer Science}, pages 44--60.
+  Springer, 2003.
+
+\bibitem{14Prio}
+David Talby and Dror~G. Feitelson.
+\newblock Supporting priorities and improving utilization of the {IBM} {SP}
+  scheduler using slack-based backfilling.
+\newblock In {\em 13th International Parallel Processing Symposium / 10th
+  Symposium on Parallel and Distributed Processing {(IPPS} / {SPDP} '99), 12-16
+  April 1999, San Juan, Puerto Rico, Proceedings}, pages 513--517. {IEEE}
+  Computer Society, 1999.
+
+\bibitem{15Utili}
+Ahuva~Mu'alem Weil and Dror~G. Feitelson.
+\newblock Utilization, predictability, workloads, and user runtime estimates in
+  scheduling the {IBM} {SP2} with backfilling.
+\newblock {\em {IEEE} Trans. Parallel Distrib. Syst.}, 12(6):529--543, 2001.
+
+\bibitem{16Random}
+Dejan Perkovic and Peter~J. Keleher.
+\newblock Randomization, speculation, and adaptation in batch schedulers.
+\newblock In Jed Donnelley, editor, {\em Proceedings Supercomputing 2000,
+  November 4-10, 2000, Dallas, Texas, {USA.} {IEEE} Computer Society,
+  {CD-ROM}}, page~7. {IEEE} Computer Society, 2000.
+
+\bibitem{17Cluster16}
+Ryan McKenna, Stephen Herbein, Adam Moody, Todd Gamblin, and Michela Taufer.
+\newblock Machine learning predictions of runtime and {IO} traffic on high-end
+  clusters.
+\newblock In {\em 2016 {IEEE} International Conference on Cluster Computing,
+  {CLUSTER} 2016, Taipei, Taiwan, September 12-16, 2016}, pages 255--258.
+  {IEEE} Computer Society, 2016.
+
+\bibitem{18Cluster19}
+Kundjanasith Thonglek, Kohei Ichikawa, Keichi Takahashi, Hajimu Iida, and
+  Chawanat Nakasan.
+\newblock Improving resource utilization in data centers using an lstm-based
+  prediction model.
+\newblock In {\em 2019 {IEEE} International Conference on Cluster Computing,
+  {CLUSTER} 2019, Albuquerque, NM, USA, September 23-26, 2019}, pages 1--8.
+  {IEEE}, 2019.
+
+\bibitem{24FGCS}
+Goshgar Ismayilov and Haluk~Rahmi Topcuoglu.
+\newblock Neural network based multi-objective evolutionary algorithm for
+  dynamic workflow scheduling in cloud computing.
+\newblock {\em Future Gener. Comput. Syst.}, 102:307--322, 2020.
+
+\bibitem{19Norm}
+St{\'{e}}phane Ross, Paul Mineiro, and John Langford.
+\newblock Normalized online learning.
+\newblock In Ann Nicholson and Padhraic Smyth, editors, {\em Proceedings of the
+  Twenty-Ninth Conference on Uncertainty in Artificial Intelligence, {UAI}
+  2013, Bellevue, WA, USA, August 11-15, 2013}. {AUAI} Press, 2013.
+
+\bibitem{20Check}
+Shuangcheng Niu, Jidong Zhai, Xiaosong Ma, Mingliang Liu, Yan Zhai, Wenguang
+  Chen, and Weimin Zheng.
+\newblock Employing checkpoint to improve job scheduling in large-scale
+  systems.
+\newblock In Walfredo Cirne, Narayan Desai, Eitan Frachtenberg, and Uwe
+  Schwiegelshohn, editors, {\em Job Scheduling Strategies for Parallel
+  Processing, 16th International Workshop, {JSSPP} 2012, Shanghai, China, May
+  25, 2012. Revised Selected Papers}, volume 7698 of {\em Lecture Notes in
+  Computer Science}, pages 36--55. Springer, 2012.
+
+\bibitem{21JPDC}
+Henri Casanova, Arnaud Giersch, Arnaud Legrand, Martin Quinson, and
+  Fr{\'{e}}d{\'{e}}ric Suter.
+\newblock Versatile, scalable, and accurate simulation of distributed
+  applications and platforms.
+\newblock {\em J. Parallel Distributed Comput.}, 74(10):2899--2917, 2014.
+
+\bibitem{22GPU}
+Cong~Thuan Do, Hong~Jun Choi, Sung~Woo Chung, and Cheol~Hong Kim.
+\newblock A novel warp scheduling scheme considering long-latency operations
+  for high-performance gpus.
+\newblock {\em J. Supercomput.}, 76(4):3043--3062, 2020.
+
+\bibitem{23Lijingbo}
+Jingbo Li, Xingjun Zhang, Jianfeng Zhou, Xiaoshe Dong, and Chuhua Zhang.
+\newblock sw{HPFM}: Refactoring and optimizing the structured grid fluid
+  mechanical algorithm on the sunway taihulight supercomputer.
+\newblock {\em Appl. Sci.}, 10(1):72, 2020.
+
+\end{thebibliography}

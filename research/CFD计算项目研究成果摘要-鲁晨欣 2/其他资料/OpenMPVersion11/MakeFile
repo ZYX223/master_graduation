@@ -1,0 +1,13 @@
+#!/bin/bash
+if [ -f rotor ]
+then
+rm  rotor
+fi
+mpic++ ArtificialVisc.cpp GeoField.cpp Memory.cpp RungeKutta.cpp BoundaryCondition.cpp Gradient.cpp Mesh.cpp TimeDerivation.cpp MultiGrid.cpp Convective.cpp writefile.cpp RKBase.cpp Dictionary.cpp Diffusion.cpp LocalTimestp.cpp RSmoothing.cpp LogFile.cpp Rotor-OOP-V1.0.cpp -o rotor -O2 -fopenmp 
+if [ -f rotor ]
+then
+echo "rotor compile success"
+else
+echo "rotor compile failure！！"
+fi
+

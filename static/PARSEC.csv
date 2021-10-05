@@ -1,0 +1,13 @@
+APP,Function,Execution time improvement(%),Imblance,Latency(ns),QPI improve(%)
+Facesim,CMLB,4.1,0.20,300.69,40.61
+Facesim,EagerMap,3.48,0.43,311.45,38.47
+Facesim,TreeMatch,3.3,0.45,313.67,37.39
+Facesim,ChoiceMap,3.4,0.48,314.2,37.21
+Streamcluster,CMLB,1.3,0.91,208.64,-1.1
+Streamcluster,EagerMap,-1.2,1.64,227.52,-1.0
+Streamcluster,TreeMatch,-1.4,1.54,226.98,-1.2
+Streamcluster,ChoiceMap,-1.5,1.52,228.45,-1.3
+Fluidanimate,CMLB,3.5,0.15,330.67,21.12
+Fluidanimate,EagerMap,3.7,0.20,332.15,23.25
+Fluidanimate,TreeMatch,3.6,0.28,335.47,19.47
+Fluidanimate,ChoiceMap,3.4,0.27,333.2,19.5

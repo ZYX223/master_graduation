@@ -1,0 +1,19 @@
+#ifndef __LHMAPPING_H__
+#define __LHMAPPING_H__
+
+#include <stdint.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <limits.h>
+#include <wctype.h>
+#include <inttypes.h>
+
+#define MAX_THREADS_BITS 10
+#define MAX_THREADS (1 << MAX_THREADS_BITS)
+
+#include "lib.h"
+#include "graph.h"
+#include "topology.h"
+#include "mapping-algorithms.h"
+
+#endif

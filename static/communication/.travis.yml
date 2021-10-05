@@ -1,0 +1,11 @@
+language: python
+
+version: 3.6
+
+sudo: false
+
+install:
+    - pip3 install numpy
+
+script:
+    - ./unittest.sh

@@ -1,0 +1,105 @@
+Start testing: Apr 10 17:20 CST
+----------------------------------------------------------
+1/2 Testing: utestall
+1/2 Test: utestall
+Command: "/Users/zhangyuxin/Desktop/research/code/dagpar-master/build/utestall"
+Directory: /Users/zhangyuxin/Desktop/research/code/dagpar-master/build
+"utestall" start time: Apr 10 17:20 CST
+Output:
+----------------------------------------------------------
+[Start] Test everything
+testSize = 4
+idxGenerator = 0
+clusterSize = 1
+clusterSize = 10
+clusterSize = 100
+idxGenerator = 1
+clusterSize = 1
+clusterSize = 10
+clusterSize = 100
+idxGenerator = 2
+clusterSize = 1
+clusterSize = 10
+clusterSize = 100
+idxGenerator = 3
+clusterSize = 1
+clusterSize = 10
+clusterSize = 100
+testSize = 10
+idxGenerator = 0
+clusterSize = 1
+clusterSize = 10
+clusterSize = 100
+idxGenerator = 1
+clusterSize = 1
+clusterSize = 10
+clusterSize = 100
+idxGenerator = 2
+clusterSize = 1
+clusterSize = 10
+clusterSize = 100
+idxGenerator = 3
+clusterSize = 1
+clusterSize = 10
+clusterSize = 100
+testSize = 40
+idxGenerator = 0
+clusterSize = 1
+clusterSize = 10
+clusterSize = 100
+idxGenerator = 1
+clusterSize = 1
+clusterSize = 10
+clusterSize = 100
+idxGenerator = 2
+clusterSize = 1
+clusterSize = 10
+clusterSize = 100
+idxGenerator = 3
+clusterSize = 1
+clusterSize = 10
+clusterSize = 100
+filename = ../data/chukrut_disque.txt
+[INFO] There are 2420 edges
+clusterSize = 1
+clusterSize = 10
+clusterSize = 100
+filename = ../data/chukrut_quadcurve.txt
+[INFO] There are 2420 edges
+clusterSize = 1
+clusterSize = 10
+clusterSize = 100
+filename = ../data/chukrut_quad.txt
+[INFO] There are 2420 edges
+clusterSize = 1
+clusterSize = 10
+clusterSize = 100
+[Finished] PASSED (701378 steps)
+Test is over, 1 Passed, 0 Failed
+<end of output>
+Test time =   0.73 sec
+----------------------------------------------------------
+Test Passed.
+"utestall" end time: Apr 10 17:20 CST
+"utestall" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: utestisdag
+2/2 Test: utestisdag
+Command: "/Users/zhangyuxin/Desktop/research/code/dagpar-master/build/utestisdag"
+Directory: /Users/zhangyuxin/Desktop/research/code/dagpar-master/build
+"utestisdag" start time: Apr 10 17:20 CST
+Output:
+----------------------------------------------------------
+[Start] Test everything
+[Finished] PASSED (4 steps)
+Test is over, 1 Passed, 0 Failed
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"utestisdag" end time: Apr 10 17:20 CST
+"utestisdag" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 10 17:20 CST
